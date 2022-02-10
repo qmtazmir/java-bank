@@ -17,17 +17,25 @@
         </h1>
     </header>
     <main>
-        <section class="my-5"">
-            <h3 class=" text-2xl">Please Login</h3>
-            <form class=" my-5" action="">
-                <input class="mx-5 bg-cyan-400 text-center rounded-full text-lime-900 text-6" type="text"
-                    placeholder="Your Name">
-                <input type="text" placeholder="Enter Your Email">
-                <input type="Password" placeholder="Eenter Your Password">
-
-
-
-            </form>
+        <section class="my-5 mx-auto w-3/4 bg-slate-300">
+            <h3 class=" text-violet-800 text-2xl ml-8 font-extrabold text-violet-900">Please Login</h3>
+            <div>
+                <form class=" my-5" action="">
+                    <input id="your-name"
+                        class="py-2 my-8 w-3/4 mx-5 block bg-emerald-900 text-center rounded-full  text-6" type="text"
+                        placeholder="Your Name">
+                    <input id="user-email"
+                        class="py-2 my-8 w-3/4 mx-5 block bg-emerald-900 text-center rounded-full  text-6" type="text"
+                        placeholder="Enter Your Email">
+                    <input id="user-password"
+                        class="py-2 my-8 w-3/4 mx-5 block bg-emerald-900 text-center rounded-full  text-6"
+                        type="Password" placeholder="Eenter Your Password">
+                </form>
+                <button id="submit-button"
+                    class="hover:bg-sky-500 py-2 my-8 w-3/4 mx-5 block bg-emerald-900 text-center rounded-full  text-6">
+                    Submit
+                </button>
+            </div>
         </section>
 
     </main>
