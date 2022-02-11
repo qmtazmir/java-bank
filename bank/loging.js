@@ -11,8 +11,4 @@ if (userEmail == 'itazmir@gmail.com' &&  userPassword == 'tazmir'){
 }
 });
 
-document.getElementById('deposit-button').addEventListener
-('click', function(){
-    console.log('deposit button clicked')
 
-})
