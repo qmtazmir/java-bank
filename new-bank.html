@@ -21,12 +21,12 @@
         <!-- Blance and Transaction -->
         <section class="mt-10">
             <div class="grid grid-cols-3 gap-4 w-3-4 mx-8 ">
-                <div class=" hover:bg-sky-600 text-center bg-sky-200 p-10 rounded text-white font-bold">
+                <div class=" hover:bg-sky-600 text-center bg-blue-600 p-10 rounded text-white font-bold">
                     <h3 class="text-3xl">
                         Deposit
                     </h3>
-                    <h4 id="deposit-total" class="text-5xl">
-                        $00
+                    <h4 class="text-5xl">
+                        $<span id="deposit-total">00</span>
                     </h4>
                 </div>
                 <div class=" hover:bg-teal-300 text-center bg-purple-500 p-8 rounded text-white font-bold ">
@@ -42,7 +42,7 @@
                         Balance
                     </h3>
                     <h4 class="text-5xl">
-                        $120
+                        $ <span id="updat-blance">120</span>
                     </h4>
                 </div>
             </div>
@@ -55,7 +55,7 @@
                 <div class="bg-red-300 p-8 mx-8 rounded">
                     <h3 class=" text-2xl">Please Deposit </h3>
                     <div>
-                        <input id="deposit-amount"
+                        <input id="deposit-input"
                             class=" hover:bg-sky-100 py-2 my-8 w-3/4 mx-5 block bg-emerald-900 text-center rounded-full  text-6 text-black"
                             type="text" placeholder="$ amount to deposit">
                         <button id="deposit-button"
